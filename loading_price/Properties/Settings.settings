@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="loading_price.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="path_file" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\podma\\OneDrive\\Рабочий стол\\СМК РАБОТА\\NEW_PROG\\prototype - NEW FORMAT.xls</Value>
+    </Setting>
+    <Setting Name="path_prototypes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Mebel\\Прототипы\\prototypes.db</Value>
+    </Setting>
+    <Setting Name="path_settings" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Mebel\\Bin64\\Settings.db</Value>
+    </Setting>
+    <Setting Name="path_logs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Users\\podma\\OneDrive\\Документы\\logs_loading_price</Value>
+    </Setting>
+    <Setting Name="path_textures" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\\Mebel\\Текстуры</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
