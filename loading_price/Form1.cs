@@ -274,7 +274,7 @@ namespace loading_price
                     $"Код ошибки: 001\n____________________________________________");
             }
 
-            while (excel_sheet.Cells["I" + numbers_cells.ToString()].Type.ToString() != "IsNull")
+            while (excel_sheet.Cells["P" + numbers_cells.ToString()].Type.ToString() != "IsNull")
             {
                 try
                 {
@@ -283,7 +283,7 @@ namespace loading_price
                         connection.Open();
 
                         string sql = $"UPDATE Materials " +
-                             $"SET Name = '{excel_sheet.Cells["J" + numbers_cells.ToString()].Value}' " +
+                             $"SET Name = '{excel_sheet.Cells["Q" + numbers_cells.ToString()].Value}' " +
                              $"WHERE MaterialID = {numbers_cells + 19}"; //Материал Id начинается с 21.
 
                         using (SQLiteCommand command = new SQLiteCommand(sql, connection))
@@ -365,7 +365,7 @@ namespace loading_price
                     $"Код ошибки: 001\n____________________________________________");
             }
 
-            while (excel_sheet.Cells["T" + numbers_cells.ToString()].Type.ToString() != "IsNull")
+            while (excel_sheet.Cells["S" + numbers_cells.ToString()].Type.ToString() != "IsNull")
             {
                 try
                 {
@@ -374,9 +374,9 @@ namespace loading_price
                         connection.Open();
 
                         string sql = $"UPDATE Units " +
-                             $"SET UnitsName = '{excel_sheet.Cells["U" + numbers_cells.ToString()].Value}', " +
-                             $"UnitsOkr = {excel_sheet.Cells["V" + numbers_cells.ToString()].Value}, " +
-                             $"UnitsType = '{excel_sheet.Cells["W" + numbers_cells.ToString()].Value}' " +
+                             $"SET UnitsName = '{excel_sheet.Cells["T" + numbers_cells.ToString()].Value}', " +
+                             $"UnitsOkr = {excel_sheet.Cells["U" + numbers_cells.ToString()].Value}, " +
+                             $"UnitsType = '{excel_sheet.Cells["V" + numbers_cells.ToString()].Value}' " +
                              $"WHERE UnitsID = {numbers_cells - 1}";
                         using (SQLiteCommand command = new SQLiteCommand(sql, connection))
                         {
