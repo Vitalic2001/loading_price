@@ -62,7 +62,7 @@ namespace loading_price.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\\\Users\\\\podma\\\\Документы\\\\logs_loading_price")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\\\Users\\\\podma\\\\OneDrive\\\\logs_loading_price")]
         public string path_logs {
             get {
                 return ((string)(this["path_logs"]));
